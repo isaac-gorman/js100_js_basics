@@ -8,4 +8,8 @@ console.log(words.length);
 console.log(isValid);
 console.log(randomTweet.length);
 
-console.log("isArray? " + Array.isArray(words));
+console.log(typeof randomTweet); // string
+console.log(typeof words); // object
+console.log(typeof isValid); // boolean
+
+console.log("isArray? " + Array.isArray(words)); // isArray? true
